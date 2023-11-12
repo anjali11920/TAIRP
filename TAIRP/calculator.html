@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<style>
+                      .body{
+background-image: url('codsoftpic/12.jpg');
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+                       }
+.demo{
+border:1px solid rgb(5, 66, 94);
+height:400px;
+width:350px;
+background-image: url('codsoftpic/2.jpg');
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin:auto;
+margin-top:70px;
+border-radius:10px;
+box-shadow:0px 0px 10px rgb(0, 49, 128);
+margin-right: 650px;
+
+
+}
+
+
+button{
+border-radius: 10px;
+background-color: rgb(222, 193, 140);
+color: rgb(13, 33, 23);
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;
+
+}
+</style>
+</head>
+
+
+<script type="text/javascript">
+
+function sum()
+{
+var x = parseInt(document.getElementById("no1").value);
+var y = parseInt(document.getElementById("no2").value);
+var z=x+y;
+document.getElementById("res").value=z;
+}
+function sub()
+{
+var x = parseInt(document.getElementById("no1").value);
+var y = parseInt(document.getElementById("no2").value);
+var z=x-y;
+document.getElementById("res").value=z;
+}
+function mul()
+{
+var x = parseInt(document.getElementById("no1").value);
+var y = parseInt(document.getElementById("no2").value);
+var z=x*y;
+document.getElementById("res").value=z;
+}
+function div()
+{
+var x = parseInt(document.getElementById("no1").value);
+var y = parseInt(document.getElementById("no2").value);
+var z=x/y;
+document.getElementById("res").value=z;
+}
+function re()
+{
+document.getElementById("no1").value=" ";
+document.getElementById("no2").value=" ";
+document.getElementById("res").value=" ";
+}
+
+</script>
+
+
+<body class="body">
+
+<div class="demo">
+<table align="center">
+<caption style="color:rgb(5, 66, 94);text-shadow: 2px 4px 6px rgb(6, 69, 25);font-size:60px;margin-bottom:20px;margin-top:20px;">Calculator</caption>
+<tr>
+<td >Number-1:</td>
+<td><input type="text" id="no1" ></td>
+</tr>
+<tr>
+<td >Number-2:</td>
+<td><input type="text" id="no2"></td>
+</tr>
+
+<tr>
+<td>Result:</td>
+<td><input type="text" id="res"></td>
+</tr>
+</table>
+<table align="center">
+<tr>
+<td align="left"> <button onclick="sum()">Addition</button></td>
+<td align="right"> <button onclick="sub()">subtract</button></td>
+</tr>
+<tr>
+<td align="left"> <button onclick="mul()">Multiply</button></td>
+<td align="right"> <button onclick="div()">Divide</button></td>
+</tr>
+<td colspan="2"align="center" > <button onclick="re()" style="background-color: rgb(224, 123, 61); color: rgb(6, 32, 54);
+margin-top: 45px;padding-left: 20px;padding-right:20px;font-size: xx-large;border-radius: 30px;
+">Reset</button></td>
+</table>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,402 @@
+.home {
+  background-image: url('codsoftpic/3.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid rgb(19, 1, 1) 1px;
+  padding-bottom: 130px;
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 1px 1px 1px 4px #ff5e7e;
+
+}
+
+nav ul li a {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgb(255, 207, 118);
+  text-transform: lowercase;
+  margin-top: 10px;
+  padding: 6px;
+
+
+
+}
+
+nav ul li a:hover {
+  color: #41474c;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: lowercase;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #f0ddce;
+  border: 2px rgb(243, 231, 209) double;
+  padding: 5px;
+  border: 1px solid #41474c;
+
+}
+
+nav {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-top: 15px;
+
+
+
+}
+
+nav ul li {
+  display: inline-flex;
+  list-style: none;
+  margin: 10px 20px;
+  margin-right: 20px;
+
+}
+
+div p {
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 60px;
+  margin-top: 100px;
+  color: #ff5e7e;
+  text-shadow: 0px 0px 2px #110c38;
+}
+
+div pre {
+  margin-left: 140px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -25px;
+  color: #110c38;
+}
+
+.p {
+  margin-left: 140px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px 10px #380c17;
+  color: #030111;
+}
+
+.butt {
+  color: #100944;
+  background-color: #ff5e7e;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px palevioletred solid;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px 5px #78162a;
+
+}
+
+.butt:hover {
+  color: #f095a7;
+  background-color: rgb(82, 22, 22);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px palevioletred solid;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px 5px #380c17;
+}
+
+
+#about {
+  margin-top: 100px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #000b08 2px solid;
+  margin-top: -100px;
+  padding-bottom: 150px;
+  padding-top: 100px;
+  box-shadow: 0px 2px 8px palevioletred, 0px 10px 10px rgb(176, 34, 81);
+  background-image: url('codsoftpic/5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-content {
+  margin-left: 450px;
+  margin-right: 50;
+}
+
+.heading {
+
+
+  color: #100944;
+
+  font-size: xx-large;
+
+  padding-right: 400px;
+  border-radius: 50px 0px 0px 50px;
+  border: 2px palevioletred solid;
+  background-color: #ff5e7e;
+  margin-right: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 28px;
+  margin-left: 170px;
+  margin-top: -20px;
+
+}
+
+
+.about-p {
+  color: rgb(11, 4, 52);
+  font-size: x-large;
+
+}
+
+
+#service {
+  background-image: url(techpic/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service {
+
+  width: 100%;
+
+
+}
+
+.service h2 {
+  color: rgb(54, 4, 4);
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-top: 80px;
+
+  text-align: center;
+}
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+
+
+.box .card img {
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid rgb(224, 232, 9);
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px darkgreen;
+  margin-right: 25px;
+  margin-top: 30px;
+
+}
+
+.content {
+
+  padding-bottom: 8px;
+
+  margin-top: -80px;
+
+
+}
+
+.content p {
+  margin-left: 25px;
+  color: rgb(21, 6, 35);
+  font-size: 40px;
+  margin-bottom: 50px;
+
+
+
+
+
+
+}
+
+.button {
+  margin-left: 100px;
+  margin-top: -20px;
+
+  color: #100944;
+  background-color: #ff5e7e;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px palevioletred solid;
+  border-radius: 50px;
+  font-size: 20px;
+
+  box-shadow: 1px 1px 1px 5px #78162a;
+
+}
+
+.button:hover {
+  margin-left: 100px;
+  margin-top: -20px;
+
+  color: #f095a7;
+  background-color: rgb(82, 22, 22);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px palevioletred solid;
+  border-radius: 50px;
+  font-size: 20px;
+
+
+  box-shadow: 1px 1px 1px 5px #380c17;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-image: url('codsoftpic/7.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+
+}
+
+
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+
+.contact-form h2 {
+
+
+  color: rgb(51, 54, 4);
+
+  text-transform: capitalize;
+
+
+  text-align: center;
+  font-size: 44px;
+  margin-bottom: 28px;
+
+  text-shadow: 0px 0px 10px rgb(146, 19, 74);
+
+
+  font-weight: 700;
+
+
+
+
+
+
+
+}
+
+.contact-form form {
+  text-align: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.contact-form button {
+
+
+  color: #100944;
+  background-color: #ff5e7e;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px palevioletred solid;
+  border-radius: 50px;
+  font-size: 20px;
+
+  box-shadow: 1px 1px 1px 5px #78162a;
+
+
+
+}
+
+.contact-form button:hover {
+  color: #f095a7;
+  background-color: rgb(82, 22, 22);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px palevioletred solid;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+
+  box-shadow: 1px 1px 1px 5px #380c17;
+}
+
+.contact-form label {
+  text-align: left;
+  color: rgb(3, 32, 16);
+  text-shadow: 0px 0px 10px rgb(146, 19, 74);
+
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+}
+
+.contact-info p {
+  padding: 15px;
+
+}
+
+.footer {
+
+  background-color: rgb(61, 48, 2);
+  padding: 20px;
+}
+
+.footer h5 {
+
+  font-size: 25px;
+  text-align: center;
+  color: rgb(232, 227, 219);
+
+}
